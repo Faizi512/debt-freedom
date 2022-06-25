@@ -1,14 +1,9 @@
 <div class="card bg-dark text-white">
-<<<<<<< HEAD
     <%=image_tag "company.png", style: "opacity: 0.3"%>
-=======
-    <%=image_tag "company.jpg", class:"h-50", style: "opacity: 0.3"%>
->>>>>>> 0d79327981bc872aaf8daf35443b4a5dce6a7f54
     <div class="card-img-overlay">
         <div class="row justify-content-center">
             <%=image_tag "logo.png", class: "logo"%>
             <h3 class="text-center">Write of <span class="text-warning">up to 80% </span> or Your Debt Today </h3>
-
             <div class="content">
                 <div class="row justify-content-center text-center">
                     <p >Hey, I'm Mila!</p>
@@ -442,9 +437,11 @@
     $(".back-btn").css("display", "none")
 
     $(".next").click(()=>{
-        document.getElementsByClassName("card1")[cardIndex-1].style.display ="none"
-        document.getElementsByClassName("card1")[cardIndex].style.display ="block"
-        cardIndex = cardIndex + 1;
+        if (cardIndex  != 8){
+            document.getElementsByClassName("card1")[cardIndex-1].style.display ="none"
+            document.getElementsByClassName("card1")[cardIndex].style.display ="block"
+            cardIndex = cardIndex + 1;
+        }
         if(cardIndex > 1){
             $(".back-btn").css("display", "block")
         }
