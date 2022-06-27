@@ -1,14 +1,10 @@
-<div class="bg-dark container round-border container-height">
-    <div class="row">
-        <div class="col-md-6 text-end mt-3">
-            <a class="text-white" href="/terms">
-                TERMS & CONDITION
-            </a>    
-        </div>
-        <div class="col-md-6 text-start mt-3 ">
-            <a class="text-white" href="/privacy">
-                PRIVACY & POLICY
-            </a>
-        </div>
+<div class="container">
+    <div class="abt">
+        <%=yield :page_content%>
+    </div>
+    <div class="ftr">
+        <a href="/terms">Terms & Conditions</a>
+        <a> | </a>
+        <a href="/privacy"> Privacy Policy</a>
     </div>
 </div>

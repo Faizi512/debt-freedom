@@ -1,459 +1,513 @@
-<div class="card bg-dark text-white">
-    <%=image_tag "company.png", style: "opacity: 0.3"%>
-    <div class="card-img-overlay">
-        <div class="row justify-content-center">
-            <%=image_tag "logo.png", class: "logo"%>
-            <h3 class="text-center">Write of <span class="text-warning">up to 80% </span> or Your Debt Today </h3>
-            <div class="content">
-                <div class="row justify-content-center text-center">
-                    <p >Hey, I'm Mila!</p>
-                    <p>Your debt expert. Let's get started!</p>
-                    <form>
-                        <div class="card1">                   
-                            <h3>What is the Total Amount of your Debt? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount1" value="Less than 5000 £" >
-                                        <label class="form-check-label" for="debtAmount1">
-                                            Less than 5000 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount2" value=" 5000 £ - 8000 £" >
-                                        <label class="form-check-label" for="debtAmount2">
-                                            5000 £ - 8000 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount3" value="8000 £ - 10000 £" >
-                                        <label class="form-check-label" for="debtAmount3">
-                                            8000 £ - 10000 £
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount4" value="10000£ - 12000£" >
-                                        <label class="form-check-label" for="debtAmount4">
-                                            10000£ - 12000£
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount5" value="12000£ - 15000£" >
-                                        <label class="form-check-label" for="debtAmount5">
-                                            12000£ - 15000£
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtAmount" id="debtAmount6" value="15000 £ +">
-                                        <label class="form-check-label" for="debtAmount6">
-                                            15000 £ +
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3> How many people or companies do you owe money to? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="numberofdebt" id="numberofdebt1" value="1" checked>
-                                        <label class="form-check-label" for="numberofdebt1">
-                                            1
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="numberofdebt" id="numberofdebt2" value="2-3" checked>
-                                        <label class="form-check-label" for="numberofdebt2">
-                                        2-3
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                            <div class="col">
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="numberofdebt" id="numberofdebt3" value="3-5" checked>
-                                    <label class="form-check-label" for="numberofdebt3">
-                                        3-5 
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="numberofdebt" id="numberofdebt4" value="6+" checked>
-                                    <label class="form-check-label" for="numberofdebt4">
-                                        6+
-                                    </label>
-                                </div>
-                            </div>   
-                            <div class="col">
-                            </div>
-                        </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3>What is your monthly debt repayments? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtPayment" id="debtPayment1" value="Less than 50" >
-                                        <label class="form-check-label" for="debtPayment1">
-                                            Less than 50 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtPayment" id="debtPayment2" value="50 £ - 100 £" >
-                                        <label class="form-check-label" for="debtPayment2">
-                                            50 £ - 100 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtPayment" id="debtPayment3" value="150 £ - 150 £" >
-                                        <label class="form-check-label" for="debtPayment3">
-                                            150 £ - 150 £
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtPayment" id="debtPayment4" value="150£ - 200£" >
-                                        <label class="form-check-label" for="debtPayment4">
-                                            150£ - 200£
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="debtPayment" id="debtPayment5" value="200£+" >
-                                        <label class="form-check-label" for="debtPayment5">
-                                            200£+ 
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3>What is  your employment status? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus1" value="Full Time" checked>
-                                        <label class="form-check-label" for="employmentStatus1">
-                                            Full Time
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus2" value="Part Time" checked>
-                                        <label class="form-check-label" for="employmentStatus2">
-                                            Part Time
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus3" value="Retired" checked>
-                                        <label class="form-check-label" for="employmentStatus3">
-                                            Retired
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus4" value="Unemployed" checked>
-                                        <label class="form-check-label" for="employmentStatus4">
-                                            Unemployed
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus5" value="Student" checked>
-                                        <label class="form-check-label" for="employmentStatus5">
-                                            Student 
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="employmentStatus" id="employmentStatus6" value="Other" checked>
-                                        <label class="form-check-label" for="employmentStatus6">
-                                            Other
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="card1 display-none">                   
-                            <h3>What is your total monthly income? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome1" value="Less than 500£" checked>
-                                        <label class="form-check-label" for="monthlyIncome1">
-                                            Less than 500 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome2" value="500 £ - 1000 £" checked>
-                                        <label class="form-check-label" for="monthlyIncome2">
-                                            500 £ - 1000 £
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome3" value="1000 £ - 1500 £" checked>
-                                        <label class="form-check-label" for="monthlyIncome3">
-                                            1000 £ - 1500 £
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome4" value="1500£ - 2000£" checked>
-                                        <label class="form-check-label" for="monthlyIncome4">
-                                            1500£ - 2000£
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome5" value=" 2000£ - 2500£" checked>
-                                        <label class="form-check-label" for="monthlyIncome5">
-                                            2000£ - 2500£ 
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="monthlyIncome" id="monthlyIncome6" value="2500£+" checked>
-                                        <label class="form-check-label" for="monthlyIncome6">
-                                            2500£+ 
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3>WWhere do you live? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                        
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="country" id="country1" value="England" checked>
-                                        <label class="form-check-label" for="country1">
-                                            England
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="country" id="country2" value="Scotland" checked>
-                                        <label class="form-check-label" for="country2">
-                                            Scotland
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                        
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="country" id="country3" value="Wales" checked>
-                                        <label class="form-check-label" for="country3">
-                                            Wales
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="country" id="country4" value="Nothern Ireland" checked>
-                                        <label class="form-check-label" for="country4">
-                                            Nothern Ireland
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3>What is your residential status? </h3>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                        
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="residentialStatus" id="residentialStatus1" value="Private Tenant" checked>
-                                        <label class="form-check-label" for="residentialStatus1">
-                                            Private Tenant
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="residentialStatus" id="residentialStatus2" value="Other Tenant" checked>
-                                        <label class="form-check-label" for="residentialStatus2">
-                                            Scotland
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                            </div>
-                            <div class="row justify-content-center p-3">
-                                <div class="col">
-                                        
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="residentialStatus" id="residentialStatus3" value="Home owner" checked>
-                                        <label class="form-check-label" for="residentialStatus3">
-                                            Home Owner
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="residentialStatus" id="residentialStatus4" value="Other" checked>
-                                        <label class="form-check-label" for="residentialStatus4">
-                                            Other
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1 display-none">                   
-                            <h3> Personal details  </h3>
-                            <div class="row justify-content-center">
-                                <div class="">
-                                    <div class="mb-3 ">
-                                        <label for="firstName" class="form-label">First Name</label>
-                                        <input type="text" name="firstName" class="form-control" id="firstName" value="">
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <div class="mb-3 ">
-                                        <label for="lastName" class="form-label">Last Name</label>
-                                        <input type="text" name="lastName" class="form-control" id="lastName">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row ">
-                                <div class="">
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <div class="">
-                                            <input type="text"  name="email" class="form-control" id="email" value="" placeholder="email@example.com">
+<div class="bnr_bg theme_spacing">
+    <div class="container text-center">
+
+        <div class="bnr_slogan">
+            <a href="index.html"><%=image_tag "logo.png", width:"299", height: "92", class: "img-fluid", alt: ''%></a>
+            <h3>Write of <span>up to 80%</span> of Your Debt Today</h3>
+            <div class="clearfix"></div>
+            <div class="d-flex justify-content-center">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="user"><%=image_tag "usr.jpg", width:"70", height: "70", class: "rounded-circle", alt: ''%></div>
+                        <!--<div class="fieldsetStep d-flex justify-content-center align-items-end"><span></span></div>-->
+                        <form id="msform" class="fieldsetForm">
+                            <fieldset data-step="Account">
+                                <div class="form-card">
+                                    <h2 class="fs-title">What is the Total
+                                        Amount of Tour Debt?</h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="1-option" name="selector">
+                                                    <label for="1-option">Less than £5,000 </label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="2-option" name="selector">
+                                                    <label for="2-option">£5,000 - £8,000 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="3-option" name="selector">
+                                                    <label for="3-option"> £8,000 - £10,000 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="4-option" name="selector">
+                                                    <label for="4-option"> £10,000 - £12,000 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="5-option" name="selector">
+                                                    <label for="5-option">£12,000 - £15,000 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="6-option" name="selector">
+                                                    <label for="6-option"> £15,000+ </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="">
-                                    <div class="mb-3">
-                                        <label for="Phone" class="form-label">Phone</label>
-                                        <input type="text" name="phone" class="form-control" id="Phone">
+                                </div> <input type="button" name="next" class="next action-button" value="Next" />
+                            </fieldset>
+                            <fieldset data-step="Personal">
+                                <div class="form-card">
+                                    <h2 class="fs-title">How many people or companies do you owe money to? </h2>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="7-option" name="selector">
+                                                    <label for="7-option">1</label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="8-option" name="selector">
+                                                    <label for="8-option">2 - 3 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="9-option" name="selector">
+                                                    <label for="9-option"> 3 - 5 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="10-option" name="selector">
+                                                    <label for="10-option"> 6+ </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                <input type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous" />
+                            </fieldset>
+                            <fieldset data-step="Personal 2">
+                                <div class="form-card">
+                                    <h2 class="fs-title">What is your monthly debt repayments?</h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="11-option" name="selector">
+                                                    <label for="11-option"> Less than £50 </label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="12-option" name="selector">
+                                                    <label for="12-option"> £50 - £100 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="13-option" name="selector">
+                                                    <label for="13-option"> £100 - £150 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="14-option" name="selector">
+                                                    <label for="14-option"> £150 - £200 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="15-option" name="selector">
+                                                    <label for="15-option">£200+ </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                <input type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous" />
+                            </fieldset>
+                            <fieldset data-step="Image">
+                                <div class="form-card">
+                                    <h2 class="fs-title">What is your employment status? </h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="16-option" name="selector">
+                                                    <label for="16-option">Full Time </label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="17-option" name="selector">
+                                                    <label for="17-option">Part Time </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="18-option" name="selector">
+                                                    <label for="18-option">Retired </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="19-option" name="selector">
+                                                    <label for="19-option"> Unemployed </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="20-option" name="selector">
+                                                    <label for="20-option">Student </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="21-option" name="selector">
+                                                    <label for="21-option"> Other </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <input type="button" name="next" class="next action-button" value="next" />
+                                <input type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous" />
+                            </fieldset>
+
+
+                            <fieldset data-step="Image">
+                                <div class="form-card">
+                                    <h2 class="fs-title">What is your total monthly income?</h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="22-option" name="selector">
+                                                    <label for="22-option"> Less than £500 </label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="23-option" name="selector">
+                                                    <label for="23-option">£500 &nbsp;-&nbsp; £1000</label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="24-option" name="selector">
+                                                    <label for="24-option">£1000 &nbsp;-&nbsp; £1500 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="25-option" name="selector">
+                                                    <label for="25-option"> £1500 &nbsp;-&nbsp; £2000 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="26-option" name="selector">
+                                                    <label for="26-option">£2000 &nbsp;-&nbsp; £2500 </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="27-option" name="selector">
+                                                    <label for="27-option"> £2500+ </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <input type="button" name="next" class="next action-button" value="next" />
+                                <input type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous" />
+                            </fieldset>
+
+                            <fieldset data-step="Personal">
+                                <div class="form-card">
+                                    <h2 class="fs-title">Where do you live? </h2>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="28-option" name="selector">
+                                                    <label for="28-option">England</label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="29-option" name="selector">
+                                                    <label for="29-option">Scotland </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="30-option" name="selector">
+                                                    <label for="30-option"> Wales </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="31-option" name="selector">
+                                                    <label for="31-option"> Northern Ireland </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="row justify-content-space">
-                        <div class="col back-btn">
-                            <button type="submit" class="btn btn-primary previous">back</button>
-                        </div>
-                        <div class="col">
-                            <button type="submit" class="btn btn-primary next">Next</button>
-                        </div>
-                    </div>
+                                <input type="button" name="next" class="next action-button" value="Next"> <input
+                                    type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous">
+                            </fieldset>
 
+                            <fieldset data-step="Personal">
+                                <div class="form-card">
+                                    <h2 class="fs-title">What is your residential status? </h2>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="32-option" name="selector">
+                                                    <label for="32-option"> Private Tenant </label>
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="33-option" name="selector">
+                                                    <label for="33-option"> Other Tenant </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="34-option" name="selector">
+                                                    <label for="34-option"> Homeowner </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="35-option" name="selector">
+                                                    <label for="35-option"> Other </label>
+
+                                                    <div class="check"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <input type="button" name="next" class="next action-button" value="Next"> <input
+                                    type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous">
+                            </fieldset>
+
+                            <fieldset data-step="Personal">
+                                <div class="form-card">
+                                    <h2 class="fs-title">Personal Details </h2>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <div class="txtfld">
+                                                <input class="form-control form-control-lg cstinput" type="text"
+                                                    placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="txtfld">
+                                                <input class="form-control form-control-lg cstinput" type="text"
+                                                    placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="txtfld">
+                                                <input class="form-control form-control-lg cstinput" type="Email"
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="txtfld">
+                                                <input class="form-control form-control-lg cstinput" type="text"
+                                                    placeholder="Phone No">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 col-12">
+                                            <div class="txtfld">
+                                                <div class="custom-control custom-checkbox mr-sm-2">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                        id="customControlAutosizing">
+                                                    <label class="custom-control-label"
+                                                        for="customControlAutosizing">you agree to be contacted
+                                                        by us and our partners by telephone, email and sms. You
+                                                        are aware that the information you have submitted will
+                                                        be used to assess your current situation in accordance
+                                                        with the terms and conditions and privacy policy.
+                                                        (hyder link to privacy policy and terms and conditions)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <div class="txtfld float-right">
+                                                <a href="#" type="button" class="btn btn-primary btn-lg cstbtn">Write
+                                                    off My Debt!</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <input type="button" name="next" class="next action-button" value="Submit">
+                                <input type="button" name="previous" class="previous action-button-previous"
+                                    value="Previous">
+                            </fieldset>
+
+
+
+                            <fieldset data-step="Finish" class="">
+                                <div class="form-card">
+                                    <h2 class="purple-text text-center"><strong>Thank You for Your
+                                            Applications</strong></h2> <br>
+                                    <p class="white-text text-center">One of The Advisors Will be in Touch
+                                        Shortly</p>
+                                </div>
+                                <!--<input type="button" name="previous" class="previous action-button-previous d-block" value="Previous">-->
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
 </div>
-<div class="container m-5 ">
-    <div class="row text-center">
-        <p>
-            An IVA or indiviual Voluntary Arrangement is subject to meeting qualifying and getting creditor acceptance.
-        </p>
-        <p>
-            There is no obligation to proceed with an IVA, the advice is free. IVA payments and fees may differ from the examples povided.
-        </p>
-    </div>
-</div>
 
-<script>
-    var cardIndex = 1;
-    $(".back-btn").css("display", "none")
+<%=content_for :page_content do %>
 
-    $(".next").click(()=>{
-        if (cardIndex  != 8){
-            document.getElementsByClassName("card1")[cardIndex-1].style.display ="none"
-            document.getElementsByClassName("card1")[cardIndex].style.display ="block"
-            cardIndex = cardIndex + 1;
-        }
-        if(cardIndex > 1){
-            $(".back-btn").css("display", "block")
-        }
-    })
-
-    $(".previous").click(()=>{
-        document.getElementsByClassName("card1")[cardIndex-1].style.display ="none"
-        cardIndex = cardIndex - 1;
-        document.getElementsByClassName("card1")[cardIndex-1].style.display ="block"
-        if(cardIndex == 1){
-            $(".back-btn").css("display", "none")
-        }
-    })
-
-</script>
+    <p>An IVA or Individual Voluntary Arrangement is subject to meeting qualifying<br> and getting creditor
+					acceptance. There is no obligation to proceed with an IVA, the advice is free.<br> IVA payments and
+					fees may differ from the examples provided. </p>
+                    <%end%>
