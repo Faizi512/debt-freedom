@@ -163,7 +163,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
+ /* font-family: inherit; *//* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -351,7 +351,13 @@ template {
 
 body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
 
-.bnr_bg{background: #020f22 url("bg.jpg") no-repeat fixed top;}
+.bnr_bg{background: #020f22 url("../images/bg.jpg") no-repeat fixed top;}
+.form_hadding h2{ font-size:26px; color: #fff; font-weight: 800; text-align: left; margin: 0px }
+.form_hadding ul{ margin: 0px 0 0% 0; padding: 0px;}
+.form_hadding ul li{ float: left!important; text-align: left; list-style: square; height: 100%; margin: 0px!important; padding: 0px!important; color: #fff; background: transparent!important;}
+.form_hadding ul li img{ margin:8px 0;}
+
+
 
 
 .theme_spacing{ padding:5% 0 3% 0px;}
@@ -372,6 +378,7 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
 .ftr a{ font-size:16px; color:#fff!important; text-decoration: none; text-transform: uppercase; font-weight:normal;}
 .ftr a:hover{ color:#ff6600!important;}
 
+.tanchor{ color:#ff6600!important; text-decoration: none;}
 
 .fieldsetForm {
     text-align: center;
@@ -393,6 +400,7 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
 .form-card {
     text-align: left
 }
+.form-card p{ font-size: 18px; color: #879EB1; text-align: center; margin:12px 0px;}
 
 .fieldsetForm fieldset:not(:first-of-type) {
     display: none
@@ -603,7 +611,7 @@ input[type=radio]:checked ~ label{
 
 .signature p{
 	text-align: center;
-	font-family: Helvetica, Arial, Sans-Serif;
+	/*font-family: Helvetica, Arial, Sans-Serif;*/
 	font-size: 0.85em;
 	color: #AAAAAA;
 }
@@ -658,7 +666,11 @@ input[type=radio]:checked ~ label{
 
 .custom-control-label{ color:#fff!important;}
 
-.cstbtn{ background:#ff6600!important; margin:15px 0px; font-size: 16px!important; color: #fff; font-weight: 600!important; border: solid 1px transparent!important;}
+.cstbtn{ background:#ff6600!important; padding: 0 0px; margin:15px 0px; font-size: 16px!important; color: #fff; font-weight: 600!important; border: solid 1px transparent!important;}
+
+
+
+
 
 
     @media only screen and (min-width: 960px) {
@@ -678,7 +690,7 @@ input[type=radio]:checked ~ label{
     }
     /* different techniques for iPad screening */
     @media only screen and (min-device-width:320px) and (max-device-width: 480px) and (orientation:portrait) {
-      ul.tips-list  li {
+ ul li {
     background: #324951;
     color: #AAAAAA;
     display: block;
@@ -705,7 +717,7 @@ input[type=radio]:checked ~ label{
     margin-top: 2px;
     width: 100%;
     box-sizing: border-box;
-    font-family: montserrat;
+   /* font-family: montserrat;*/
     color: #2C3E50;
     background-color: #ECEFF1;
     font-size: 16px;
