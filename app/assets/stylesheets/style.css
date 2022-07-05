@@ -350,7 +350,7 @@ template {
 }
 
 body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
- 
+
 .bnr_bg{background: #020f22 url("bg.jpg") no-repeat fixed top;}
 
 
@@ -360,10 +360,10 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
 .input_style{ font-size:16px; color: #acacac; font-weight:normal; border-radius:5px; }
 .cst_btn{ background:#fff; color: #f18126; font-size: 18px; font-weight: 700; text-transform: uppercase;}
 
-.bnr_slogan{ text-align: center;} 
-.bnr_slogan img{ margin:0% 0 2% 0%;} 
+.bnr_slogan{ text-align: center;}
+.bnr_slogan img{ margin:0% 0 2% 0%;}
 .bnr_slogan h3{ font-size:45px; color: #fff; font-weight:700;}
-.bnr_slogan span{ font-size:45px; color: #ff6600; font-weight:700;} 
+.bnr_slogan span{ font-size:45px; color: #ff6600; font-weight:700;}
 
 .abt{ text-align:center;}
 .abt p{ font-size:17px; color:#13292f; font-weight:500; margin:5% 0px;}
@@ -378,7 +378,7 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
     position: relative;
     margin-top: 20px
 }
- 
+
 
 .fieldsetForm fieldset {
    border-radius: 25px;
@@ -466,7 +466,7 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
     border: none;
     position: relative
 }
-  
+
 .card .user{position: absolute;z-index: 9999; top:-30px;margin: 0 43%;display: inline;}
 
 .fs-title {
@@ -526,7 +526,7 @@ ul { margin:0px; padding: 0px;}
   border-radius: 8px;
   height: 50px;
   /* border-bottom: 1px solid #333; */
-} 
+}
 
 ul li input[type=radio]{
   position: absolute;
@@ -621,7 +621,7 @@ input[type=radio]:checked ~ label{
     transform: rotate(45deg);
 }
 
-.signature .much-heart::before, 
+.signature .much-heart::before,
 .signature .much-heart::after {
 	  display: block;
   content: '';
@@ -654,7 +654,7 @@ input[type=radio]:checked ~ label{
 	border: solid  1px transparent!important;
 	}
 
- 
+
 
 .custom-control-label{ color:#fff!important;}
 
@@ -671,14 +671,14 @@ input[type=radio]:checked ~ label{
         /* for sumo sized (mac) screens */
     }
     @media only screen and (max-device-width: 480px) {
- 
+
     }
     @media only screen and (device-width: 768px) {
        /* default iPad screens */
     }
     /* different techniques for iPad screening */
     @media only screen and (min-device-width:320px) and (max-device-width: 480px) and (orientation:portrait) {
- ul li {
+      ul.tips-list  li {
     background: #324951;
     color: #AAAAAA;
     display: block;
@@ -717,12 +717,11 @@ input[type=radio]:checked ~ label{
     font-weight: 700;
     margin: 30px 0 0 0px;
 }
-		
+
     }
 
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
       /* For landscape layouts only */
-		
+
     }
 
-         
