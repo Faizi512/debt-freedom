@@ -524,7 +524,7 @@ body{ background: #ebf3f6; font-family: 'Work Sans', sans-serif!important;}
 }
 ul { margin:0px; padding: 0px;}
 
- ul li{
+ .tips-list ul li{
   background: #324951;
   color: #AAAAAA;
   display: block;
