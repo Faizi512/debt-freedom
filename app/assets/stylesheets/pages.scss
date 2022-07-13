@@ -217,9 +217,16 @@ input:checked + .slider:before {
     display: none;
   }
 
-  .omForm-step__footer{
+  .omForm-step__footer, .omForm-checkbox__label{
 		color:  #fff !important; 
 
+  }
+  .omForm-back.js-omFormBack{
+    color: white
+  }
+
+  .js-terms-link, js-privacy-link {
+    color: blue
   }
 
   input.valid{
