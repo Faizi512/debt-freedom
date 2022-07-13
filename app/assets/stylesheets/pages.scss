@@ -225,8 +225,8 @@ input:checked + .slider:before {
     color: white
   }
 
-  .js-terms-link, js-privacy-link {
-    color: blue
+  .js-terms-link, .js-privacy-link {
+    color: black
   }
 
   input.valid{
