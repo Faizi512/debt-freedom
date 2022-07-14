@@ -69,3 +69,26 @@
         acceptance. There is no obligation to proceed with an IVA, the advice is free.<br> IVA payments and
         fees may differ from the examples provided. </p>
                   <%end%>
+
+<%=content_for :javascript do%>
+  <script>
+    window.addEventListener('load', function () {
+        var links = {
+            privacy: 'https://debt-freedom.today/terms',
+            terms: 'https://debt-freedom.today/privacy',
+        }
+        var omFormDocLink = document.querySelectorAll(".js-terms-link, .js-privacy-link");
+        debugger
+        omFormDocLink.length && Array.prototype.forEach.call(omFormDocLink, function (t) {
+            var e = '';
+            t.classList.contains('js-privacy-link') ? (e = links.privacy) :
+            t.classList.contains('js-terms-link') ? e = links.terms : '';
+            t.setAttribute("target", "_blank"); t.setAttribute("href", e); t.setAttribute("onclick", "");
+        });
+        var n = document.querySelectorAll("script");
+        Array.prototype.forEach.call(n, function (t) {
+            /omFormDocLink/.test(t.innerText) && t.remove()
+        })
+    });
+</script>
+<%end%>
