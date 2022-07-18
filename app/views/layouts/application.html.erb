@@ -17,5 +17,16 @@
     <%= yield %>
     <%=render "shared/footer"%>
     <%= yield :javascript%>
+    <script>
+(function(arg) {
+    var _pxl = document.createElement("script");
+    _pxl.type = "text/javascript";
+    _pxl.defer = true;
+    _pxl.setAttribute('data-hmtrackerscriptquery', JSON.stringify(arg));
+    _pxl.src = "https://leads-inst47-client.phonexa.uk/hitmetrix/analize.js?v=33a4719a1d9bf2c";
+    document.getElementsByTagName("head")[0].appendChild(_pxl);
+})({"token": "8467e3895a6cefd85585ecc135404ab81bf1a76a"});
+</script>
+
   </body>
 </html>
